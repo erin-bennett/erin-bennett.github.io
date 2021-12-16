@@ -1,0 +1,459 @@
+/* this will be a css style sheet*/
+
+/** HEX CODES **/
+/* main red = #F1444C */
+/* off white = #F3EBE1 */
+/* rich green = #30694B */
+/* moss green = #495E35 */
+/* dark brown = #2A0E07 */
+
+html {box-sizing: border-box;}
+
+*, *:before, *:after {
+	font-family: 'Playfair Display', serif;
+
+}
+
+
+body {
+	background-color: #F3EBE1;
+}
+
+
+header h1 a:visited {
+	text-decoration: none;
+	color: #F1444C;
+}
+
+header {
+	height: 10px;
+}
+
+header li a {
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 18px;
+		color: #2A0E07;
+		text-transform: uppercase;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+header li a:hover {
+	color: #F1444C;
+
+}
+
+header ul {
+		list-style: none;
+		margin: 10px;
+
+	}
+
+header li {
+		float: left;
+		margin: 20px;
+
+	}
+
+header h1 {
+	float: left;
+	color: #F1444C;
+}
+
+header h1 a {
+	text-decoration: none;
+}
+
+.header {
+	position: absolute;
+	z-index: +2;
+	margin-left: 100px;
+}
+
+.container {
+	position: absolute;
+	z-index: +2;
+	margin-left: 50px;
+}
+
+
+
+.herotext h1 {
+	font-size: 60px;
+	color: #30694B;
+	margin-left: 50px;
+	z-index: +1;
+}
+
+.vintagerose img {
+	transform: rotate(85deg);
+	height: 750px;
+	margin-left: 50px;
+	float: left;
+	z-index: +1;
+	position: absolute;
+	top: 80px;
+	left: 350px;
+}
+
+.redfragrance img {
+	height: 500px;
+	margin-left: 50px;
+	float: left;
+	z-index: 0;
+	position: absolute;
+	top: 60px;
+	right: 20px;
+
+}
+
+
+.about {
+	background-color: #2A0E07;
+	height: 200px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.about h2 {
+	color: #F3EBE1;
+	text-align: center;
+	font-size: 35px;
+}
+
+.about h4 {
+	color: #F3EBE1;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-right: 90px;
+	padding-left: 90px;
+}
+
+.headertext h2 {
+	margin: 50px;
+	color: #30694B;
+}
+
+
+
+.btn {
+	border: 1px solid #30694B;
+	color: #30694B;
+	float: right;
+	margin: 50px;
+}
+
+
+#flowerstack {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr); 
+	position: relative;
+	//** background-color: #F1444C; **//
+	z-index: +2;
+
+}
+
+
+.flowerbackground img {
+	height: 250px;
+	margin-left: 150px;
+
+}
+
+
+
+.flowerbackground img:hover {
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3); 
+  transition: transform .5s;
+}
+
+.flowerbackground h4 {
+	text-align: center;
+	padding-left: 150px;
+	color: #2A0E07;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.flowerbackground a {
+	text-decoration: none;
+}
+
+
+
+.product img {
+	height: 250px;
+	margin-left: 180px;
+
+}
+
+
+
+.product img:hover {
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3); 
+  transition: transform .5s;
+}
+
+.product h4 {
+	text-align: center;
+	padding-left: 150px;
+	color: #2A0E07;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.product a {
+	text-decoration: none;
+}
+
+
+
+
+.rectangle img {
+	position: absolute;
+	z-index: -1;
+	top: 980px;
+	width: 100%;
+
+}
+
+.rectangle2 img {
+	position: absolute;
+	z-index: -1;
+	top: 1440px;
+	width: 100%;
+
+}
+
+.banner img {
+	width: 100%;
+	margin: 0;
+}
+
+.banner h2 {
+	color: #F1444C;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.banner {
+		background-image: url("../images/banner.jpg");
+		background-size: cover;
+		height: 115vh;
+}
+
+
+.banner h4 {
+	color: #F3EBE1;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-right: 90px;
+	padding-left: 90px;
+}
+
+#findcontent {
+	text-align: center;
+}
+
+#findbutton {
+	margin-top: 400px;
+
+}
+
+a#find {
+		padding: 10px 20px;
+		border-radius: 20px;
+		color: #F3EBE1;
+		background-color: #F1444C;
+		margin-top: 18px;
+		margin-right: 80px;
+		text-decoration: none;
+		margin-left: 50px;
+
+}
+
+a#find:hover {
+	color: #F1444C;
+	background-color: #F3EBE1;
+}
+
+
+
+
+
+footer {
+	background-color: #2A0E07;
+	color: #a39e93;
+	padding-top: 35px;
+	font-size: 90%;
+	padding-bottom: 40px;
+	height: 210px;
+}
+
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer li {
+	margin-bottom: 8px;
+}
+
+footer li a {
+	color: #F3EBE1;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+footer li a:hover {
+	color: #F1444C;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 500px;
+	background-color: none;
+	padding-top: 30px;
+}
+
+.flex-container div {
+	background-color: none;
+	margin: 20px;
+	min-width: 300px;
+	max-height: 600px;
+	text-align: left;
+	line-height: 60px;
+	font-size: 48px;
+	flex: 1 1 150px;
+	padding: 15px;
+}
+
+/*** INCENSE PAGE STYLING ***/
+
+#titletext {
+	padding-top: 100px;
+	margin-left: 100px;
+}
+
+#titlerectangle {
+	width: 100%;
+	overflow: hidden;
+	height: 50px;
+}
+
+.headertext2 h2 {
+	margin: 100px;
+	color: #30694B;
+	font-size: 40px;
+}
+
+
+#middle {
+	margin-left: 5px;
+}
+
+#middle img {
+	height: 200px;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media only screen and (max-width: 1000px) {
+	header li{
+		margin: 40px 20px;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 750px) {
+	
+	header ul {
+		padding-left: 0;
+	}
+
+
+	header li{
+		display: none;
+		float: none;
+		margin: 40px;
+
+	}
+
+	#hero {
+	height: 100vh;
+
+	}
+
+	.herotext {
+		padding-left: 20px;
+
+	}
+
+
+	#whatistext h4 {
+		text-align: left;
+		margin-left: 10px;
+	}
+
+
+	.vintagerose {
+		display: none;
+	}
+
+	.redfragrance {
+		display: none;
+	}
+
+	#flowerimages {
+	
+	}
+
+	#findbutton {
+	margin-top: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
